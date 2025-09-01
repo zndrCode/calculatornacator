@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/app/src/androidTest/java/com/example/calculatornacator/ExampleInstrumentedTest.kt;C:/Users/CL1-04/AndroidStudioProjects/calculatornacator/app/src/main/java/com/example/calculatornacator/ui/theme/Color.kt;C:/Users/CL1-04/AndroidStudioProjects/calculatornacator/app/src/main/java/com/example/calculatornacator/ui/theme/Theme.kt;C:/Users/CL1-04/AndroidStudioProjects/calculatornacator/app/src/main/java/com/example/calculatornacator/ui/theme/Type.kt;C:/Users/CL1-04/AndroidStudioProjects/calculatornacator/app/src/main/java/com/example/calculatornacator/MainActivity.kt;C:/Users/CL1-04/AndroidStudioProjects/calculatornacator/app/src/test/java/com/example/calculatornacator/ExampleUnitTest.kt;C:/Users/CL1-04/AndroidStudioProjects/calculatornacator/app/build.gradle.kts;C:/Users/CL1-04/AndroidStudioProjects/calculatornacator/build.gradle.kts;C:/Users/CL1-04/AndroidStudioProjects/calculatornacator/settings.gradle.kts" />
+  </component>
+</project>
