@@ -16,7 +16,8 @@
         android:hint="Enter first number"
         android:inputType="numberDecimal"
         android:textSize="24sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:importantForAutofill="no"/>
 
     <EditText
         android:id="@+id/number2_edit_text"
@@ -25,7 +26,8 @@
         android:hint="Enter second number"
         android:inputType="numberDecimal"
         android:textSize="24sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:importantForAutofill="no"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,36 +41,50 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:minWidth="64dp"
+            android:minHeight="64dp"/>
 
         <Button
             android:id="@+id/subtract_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:minWidth="64dp"
+            android:minHeight="64dp"/>
 
         <Button
             android:id="@+id/multiply_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="*"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:minWidth="64dp"
+            android:minHeight="64dp"/>
 
         <Button
             android:id="@+id/divide_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="/"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:minWidth="64dp"
+            android:minHeight="64dp"/>
     </LinearLayout>
 
     <TextView
         android:id="@+id/result_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Result:"
-        android:textSize="30sp"
-        android:textStyle="bold"/>
+        android:text="Result will be shown here"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:padding="16dp"/>
 
 </LinearLayout>
