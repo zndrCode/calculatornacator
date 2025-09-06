@@ -1,4 +1,4 @@
-package com.example.calculatornacator // Add your package name here
+package com.example.calculatornacator
 
 import androidx.activity.ComponentActivity
 import android.os.Bundle
@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
         addButton = findViewById<Button>(R.id.add_button)
         subtractButton = findViewById<Button>(R.id.subtract_button)
         multiplyButton = findViewById<Button>(R.id.multiply_button)
-        divideButton = findViewById<Button>(R.id.divide_button) // Fixed typo: dwide -> divide
+        divideButton = findViewById<Button>(R.id.divide_button)
         resultTextView = findViewById<TextView>(R.id.result_text_view)
 
         addButton.setOnClickListener { calculate('+') }
@@ -43,7 +43,6 @@ class MainActivity : ComponentActivity() {
         }
 
         try {
-            // Parse input values
             val num1 = num1Str.toDouble()
             val num2 = num2Str.toDouble()
             val result: Double
@@ -64,8 +63,6 @@ class MainActivity : ComponentActivity() {
                     return
                 }
             }
-
-            // Display result
             resultTextView.text = "Result: $result"
 
         } catch (e: NumberFormatException) {
